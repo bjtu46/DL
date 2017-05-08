@@ -10,15 +10,15 @@ BP algorithm is mainly due to the emergence of Sigmoid function, instead of the 
 The Sigmoid function is a monotonically increasing nonlinear function. When the threshold value is large enough, the threshold function can be approximated.
 
 
-.. figure:: pics/6.png
+.. figure:: pics/1.jpg
 
 The Sigmoid function is usually written in the following form:
 
-.. figure:: pics/2.png
+.. figure:: pics/2.jpg
 
 The value range is (-1,1), which can be used instead of the neuron step function:
 
-.. figure:: pics/3.png
+.. figure:: pics/3.jpg
 
 Due to the complexity of the network structure, the Sigmoid function is used as the transfer function of the neuron. This is the basic idea of multilayer perceptron backpropagation algorithm.
 
@@ -28,11 +28,11 @@ Due to the complexity of the network structure, the Sigmoid function is used as 
 
 BP algorithm is the optimization of the network through the iterative weights makes the actual mapping relationship between input and output and the desired mapping, descent algorithm by adjusting the layer weights for the objective function to minimize the gradient. The sum of the squared error between the predicted output and the expected output of the network on one or all training samples：
 
-.. figure:: pics/4.png
+.. figure:: pics/4.jpg
 
 The error of each unit is calculated by layer by layer error of output layer:
 
-.. figure:: pics/5.png
+.. figure:: pics/5.jpg
 
 Back Propagation Net (BPN) is a kind of multilayer network which is trained by weight of nonlinear differentiable function. BP network is mainly used for:
 
